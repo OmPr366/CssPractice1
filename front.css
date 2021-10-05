@@ -1,0 +1,65 @@
+.bgDiv{
+    overflow: hidden;
+    background-color: rgb(236, 26, 26);
+    width: 100%;
+    height: 90vh;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bgDiv img{
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+}
+
+.contain{
+    margin: 0 8rem;
+    padding-top: 8rem;
+    height: max-content;
+    width: max-content;
+}
+
+.advice{
+    background-color: #fff;
+    color: #c09133;
+    width: min-content;
+    padding: 0.4rem 0.5rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+.heading{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headExtra{
+    font-size: 1.5rem;
+}
+.contain button{
+    color: white;
+    background-color: rgb(13, 13, 83);
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    margin-top: 0.8rem;
+}
+
+
+.free{
+    background-color: #c09133d0;
+    width: 25%;
+    height: 12rem;
+    margin-left: 51.44rem;
+    border-radius: 2rem;
+    z-index: -999;
+    text-align: center;
+
+}
+.free p{
+    font-size: larger;
+    font-size: 2rem;
+    color: white;
+    padding-top: 1rem;
+}

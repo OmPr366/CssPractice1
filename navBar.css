@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    background-color: rgb(255, 255, 255);
+    padding: 0 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+}
+.logoDiv{
+    display: flex;
+    margin: auto 0;
+    padding: auto 0;
+    /* text-align: center; */
+}
+.mylogoTxt{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.6rem;
+}
+.mylogoTxt .first{
+    margin: 0 0;
+    margin-top: 1rem ;
+    padding: 0;
+}
+.mylogoTxt b{
+    font-size: 1.5rem;
+}
+.imgSec{
+    margin: auto 0;
+}
+.extra{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    margin: auto 0;
+    margin-right: 1rem;
+    padding: auto;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.extra li{
+    list-style: none;
+    margin:auto 2rem;
+    cursor: pointer;
+}
+.extra li box-icon{
+    margin-right: 0px;
+}
+
+
+
+#golden{
+    color: #c09133;
+    align-items: center;
+    margin-left: 0px;
+}
+#golden span{
+    margin: 0;
+    align-items: center;
+    padding: 0;
+}
+
+/* Niv */
+

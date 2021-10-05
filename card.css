@@ -1,0 +1,22 @@
+.card{
+    width: 100%;
+    background-color: rgb(223, 217, 217);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bankCard{
+    width: 30%;
+    height: 30rem;
+    padding: 2rem 1.3rem;
+}
+.bankCard box-icon{
+    height: 3rem;
+    margin-bottom: 0.5rem;
+}
+.myCard{
+    background-color: #fff;
+    height: max-content;
+    width: 30%;
+    padding: 2rem 1.3rem;
+}
